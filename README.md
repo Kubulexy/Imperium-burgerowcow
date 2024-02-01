@@ -1,2 +1,3 @@
 # Imperium-burgerowc-w
-coś
+
+instrukcja użytkownika
