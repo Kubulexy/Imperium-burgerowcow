@@ -26,9 +26,21 @@ async def joined(ctx, member: discord.Member):
     await ctx.send(f'{member.name} joined {discord.utils.format_dt(member.joined_at)}')
 
 @bot.command()
-async def add(ctx, left: int, right: int):
-    """Adds two numbers together."""
+async def dodaj(ctx, left: int, right: int):
     await ctx.send(left + right)
+
+@bot.command()
+async def odejmij(ctx, left: int, right: int):
+    await ctx.send(left - right)
+
+@bot.command()
+async def podziel(ctx, left: int, right: int):
+    await ctx.send(left / right)
+
+@bot.command()
+async def pomnoz(ctx, left: int, right: int):
+    await ctx.send(left * right)
+
 
 @bot.command(description='For when you wanna settle the score some other way')
 async def choose(ctx, *choices: str):
@@ -49,4 +61,4 @@ async def rzut(ctx):
     await ctx.send(f'...')
     await ctx.send(f'Wynik: ' + rzut_moneta() + '!')      
 
-bot.run("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") 
+bot.run("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") 
