@@ -49,4 +49,4 @@ async def rzut(ctx):
     await ctx.send(f'...')
     await ctx.send(f'Wynik: ' + rzut_moneta() + '!')      
 
-bot.run("MTE3NjkzMzU4MTYyOTY4NTg0MQ.G_N9rl.aywLC3RPAbyTUjDpaQI2I5iV-2BhUe_CascKlk") 
+bot.run("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") 
